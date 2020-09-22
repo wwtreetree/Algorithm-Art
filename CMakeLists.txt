@@ -1,0 +1,69 @@
+cmake_minimum_required(VERSION 3.16)
+project(pa3)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(cs221util)
+include_directories(cs221util/lodepng)
+include_directories(images)
+
+add_executable(pa3
+        cs221util/lodepng/lodepng.cpp
+        cs221util/lodepng/lodepng.h
+        cs221util/catch.hpp
+        cs221util/HSLAPixel.cpp
+        cs221util/HSLAPixel.h
+        cs221util/json.hpp
+        cs221util/PNG.cpp
+        cs221util/PNG.h
+        cs221util/RGB_HSL.h
+        cs221util/RGBAPixel.cpp
+        cs221util/RGBAPixel.h
+        images/orig/adasquare.png
+        images/orig/canadaPlace.png
+        images/orig/colour.png
+        images/orig/geo.png
+        images/orig/KJVFbig.png
+        images/orig/oneSmall.png
+        images/orig/oneSquare.png
+        images/orig/remb.png
+        images/orig/rosa.png
+        images/orig/smB.png
+        images/orig/spaceShips.png
+        images/orig/stanley-totem-poles.png
+        images/orig/trispiral.png
+        images/orig/twoSquares.png
+        images/orig/ubc-totem-poles.png
+        images/soln/given-adaPrune-count.png
+        images/soln/given-adaPrune-var.png
+        images/soln/given-comp-count-stanley.png
+        images/soln/given-comp-var-stanley.png
+        images/soln/given-prunedadasquare-var.png
+        images/soln/given-prunedadasquare.png
+        images/soln/given-prunedKJVFbig-var.png
+        images/soln/given-prunedKJVFbig.png
+        images/soln/given-prunedstanley-totem-poles-var.png
+        images/soln/given-prunedstanley-totem-poles.png
+        lodepng.o
+        main.cpp
+        main.o
+        Makefile
+        pa3
+        pa3test
+        PNG.o
+        qtcount.cpp
+        qtcount.h
+        qtcount.o
+        qtvar.cpp
+        qtvar.h
+        qtvar.o
+        quadtree.cpp
+        quadtree.h
+        quadtree.o
+        RGBAPixel.o
+        stats.cpp
+        stats.h
+        stats.o
+        testComp.cpp
+        testComp.o)

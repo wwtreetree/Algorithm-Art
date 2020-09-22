@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pa3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shuwang/Desktop/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shuwang/Desktop/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shuwang/Desktop/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa3">
+				<Option output="/Users/shuwang/Desktop/pa3/cmake-build-debug/pa3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shuwang/Desktop/pa3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shuwang/Desktop/pa3/."/>
+					<Add directory="/Users/shuwang/Desktop/pa3/cs221util"/>
+					<Add directory="/Users/shuwang/Desktop/pa3/cs221util/lodepng"/>
+					<Add directory="/Users/shuwang/Desktop/pa3/images"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa3/fast">
+				<Option output="/Users/shuwang/Desktop/pa3/cmake-build-debug/pa3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shuwang/Desktop/pa3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shuwang/Desktop/pa3/."/>
+					<Add directory="/Users/shuwang/Desktop/pa3/cs221util"/>
+					<Add directory="/Users/shuwang/Desktop/pa3/cs221util/lodepng"/>
+					<Add directory="/Users/shuwang/Desktop/pa3/images"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shuwang/Desktop/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shuwang/Desktop/pa3/Makefile">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/PNG.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/RGBAPixel.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/HSLAPixel.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/HSLAPixel.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/PNG.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/PNG.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/RGBAPixel.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/RGBAPixel.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/RGB_HSL.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/catch.hpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/json.hpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/lodepng/lodepng.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/cs221util/lodepng/lodepng.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/KJVFbig.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/adasquare.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/canadaPlace.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/colour.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/geo.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/oneSmall.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/oneSquare.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/remb.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/rosa.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/smB.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/spaceShips.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/stanley-totem-poles.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/trispiral.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/twoSquares.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/orig/ubc-totem-poles.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-adaPrune-count.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-adaPrune-var.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-comp-count-stanley.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-comp-var-stanley.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedKJVFbig-var.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedKJVFbig.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedadasquare-var.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedadasquare.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedstanley-totem-poles-var.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/images/soln/given-prunedstanley-totem-poles.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/lodepng.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/main.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/main.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/pa3">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/pa3test">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtcount.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtcount.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtcount.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtvar.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtvar.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/qtvar.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/quadtree.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/quadtree.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/quadtree.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/stats.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/stats.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/stats.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/testComp.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/testComp.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/shuwang/Desktop/pa3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
